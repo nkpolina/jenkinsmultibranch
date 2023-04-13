@@ -6,6 +6,6 @@ node('built-in')
 	}
     stage('Continuous Master_Build') 
 	{
-    sh label: '', script: 'echo "Hi from master build"'
+    sh label: '', script: 'echo "Hi from master  build"'
 	}
 }
